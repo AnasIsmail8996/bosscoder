@@ -1,0 +1,398 @@
+
+.Footer-back-color{
+    width: 1338px;
+height: 650px;
+flex-shrink: 0;
+background: #e3e3e3;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+position: relative;
+}
+
+.boot-col-merge{
+   
+    position: absolute;
+    margin-top: 5rem !important;
+    margin-left: 5rem !important;
+}
+.first-column{
+    width: 531px !important;
+}
+.FooterImg{
+    display:flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FooterImg img{
+    padding: 10px;
+    margin: 0px ;
+}
+
+.FooterImg p{
+    margin-top: 1rem;
+    color: #000;
+font-family: Inter;
+font-size: 34.35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+/* pages  column  */
+
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+}
+
+.pages h6{
+    color: #004AAD;
+font-family: Poppins;
+font-size: 34.35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.pages li{
+    list-style: none;
+    color: #000;
+font-family: Poppins;
+font-size: 34.35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+/* columns there  */
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+}
+
+.links h6{
+    color: #004AAD;
+font-family: Poppins;
+font-size: 34.35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+li{
+    list-style: none;
+    color: #000;
+font-family: Poppins;
+font-size: 34.35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+cursor: pointer;   
+}
+
+/* media query starting from here  */
+
+@media only screen and (max-width:992px){
+
+
+    .Footer-back-color{
+    height: 780px;
+ 
+    position: relative;
+    }
+    
+    .boot-col-merge{
+       
+        position: absolute;
+        margin-top: 5rem !important;
+        margin-left: 5rem !important;
+    }
+    .first-column{
+        width: 300px !important;
+    }
+    .FooterImg{}
+    
+    .FooterImg img{
+        padding: 10px;
+        margin: 0px ;
+    }
+    
+    .FooterImg p{
+        margin-top: 1rem;
+     font-family: poppins;
+    font-size: 29.35px;
+   
+    }
+    
+    /* pages  column  */
+    
+    .pages{
+       
+        margin-top: 0rem;
+    }
+    
+    .pages h6{
+       
+    font-size: 34.35px;
+    }
+    .pages li{
+        list-style: none;
+        color: #000;
+    font-family: Poppins;
+    font-size: 34.35px;
+  
+    }
+    
+    /* columns there  */
+    
+    .links{
+        margin-top: 0rem;
+        margin-left: 7rem;
+    }
+    
+    .links h6{
+        color: #004AAD;
+    
+    font-size: 34.35px;
+  
+    }
+    
+    li{
+       
+    font-size: 34.35px;
+  
+    }
+    
+
+
+}
+@media only screen and (max-width:767.98px){
+    
+    .Footer-back-color{
+        height: 790px;
+     
+        position: relative;
+        }
+        
+        .boot-col-merge{
+           
+            position: absolute;
+            margin-top: 5rem !important;
+            margin-left: 5rem !important;
+        }
+        .first-column{
+            width: 300px !important;
+        }
+        .FooterImg{}
+        
+        .FooterImg img{
+            padding: 10px;
+            margin: 0px ;
+        }
+        
+        .FooterImg p{
+            margin-top: 1rem;
+         
+        font-size: 29.35px;
+       
+        }
+        
+        /* pages  column  */
+        
+        .pages{
+           
+            margin-top: 0rem;
+        }
+        
+        .pages h6{
+           
+        font-size: 34.35px;
+        }
+        .pages li{
+            list-style: none;
+            color: #000;
+        font-family: Poppins;
+        font-size: 34.35px;
+      
+        }
+        
+        /* columns there  */
+        
+        .links{
+            margin-top: 0rem;
+            margin-left: -8rem;
+        }
+        
+        .links h6{
+            color: #004AAD;
+        
+        font-size: 34.35px;
+      
+        }
+        
+        li{
+           
+        font-size: 34.35px;
+      
+        }
+        
+}
+@media only screen and (max-width:575.98px){
+    .Footer-back-color{
+        height: 490px;
+     
+        position: relative;
+        }
+        
+        .boot-col-merge{
+           
+            position: absolute;
+            margin-top: 5rem !important;
+            margin-left: 0rem !important;
+        }
+        .first-column{
+            width: 300px !important;
+        }
+        .FooterImg{}
+        
+        .FooterImg img{
+            padding: 10px;
+            margin: 0px ;
+        }
+        
+        .FooterImg p{
+            margin-top: 0rem;
+         
+        font-size: 22.35px;
+       
+        }
+        
+        /* pages  column  */
+        
+        .pages{
+           
+            margin-top: 0rem;
+            
+    
+        }
+        
+        .pages h6{
+           
+        font-size: 30.35px;
+        }
+        .pages li{
+            list-style: none;
+            color: #000;
+        font-family: Poppins;
+        font-size: 18.35px;
+      
+        }
+        
+        /* columns there  */
+        
+        .links{
+            margin-top: 0rem;
+            margin-left: 3rem;
+        }
+        
+        .links h6{
+            color: #004AAD;
+        
+        font-size: 32.35px;
+      
+        }
+        
+        li{
+           
+        font-size: 22.35px;
+      
+        }
+}
+@media only screen and (max-width:425.98px){
+    .Footer-back-color{
+        height: 685px;
+     
+        position: relative;
+        }
+}
+@media only screen and (max-width:320.98px){
+
+    .Footer-back-color{
+        height: 890px;
+     
+        position: relative;
+        }
+        
+        .boot-col-merge{
+           
+            position: absolute;
+            margin-top: 5rem !important;
+            margin-left: 0rem !important;
+        }
+        .first-column{
+            width: 300px !important;
+        }
+        .FooterImg{}
+        
+        .FooterImg img{
+            padding: 10px;
+            margin: 0px ;
+        }
+        
+        .FooterImg p{
+            margin-top: 0rem;
+         
+        font-size: 22.35px;
+       
+        }
+        
+        /* pages  column  */
+        
+        .pages{
+           
+            margin-top: 0rem;
+            margin-left: 2rem;           
+    
+        }
+        
+        .pages h6{
+           
+        font-size: 30.35px;
+        }
+        .pages li{
+        font-size: 18.35px;
+      
+        }
+        
+        /* columns there  */
+        
+        .links{
+            margin-top: 0rem;
+            margin-left: 10rem;
+        }
+        
+        .links h6{
+            color: #004AAD;
+        
+        font-size: 32.35px;
+      
+        }
+        
+        li{
+           
+        font-size: 22.35px;
+      
+        }
+
+}

@@ -1,0 +1,295 @@
+
+
+/* card section starting from here */
+.img-card{ }
+.img-card img{
+    width: 1150px;
+    height: 492px;
+    flex-shrink: 0;
+    border-radius: 50px 50px 0px 0px;
+ }
+
+
+.img-card-para-one-new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card-para-one-new p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img-card-para-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card-para-two p{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn-OurPro{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-OurPro button{
+    width: 386px;
+height: 78px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #004AAD;
+background: #FFF;
+}
+.btn-OurPro button span{
+    width: 237px;
+height: 39px;
+flex-shrink: 0;
+color: #004AAD;
+font-family: Inter;
+font-size: 34.35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.ArrowIcon{
+  margin-left: 2rem;
+}
+
+
+
+
+/* media query srating from here */
+
+@media only screen and (max-width:992px){
+
+   
+    
+  
+    
+    /* card section starting from here */
+    .img-card{ }
+    .img-card img{
+        width: 700px;
+        height: 442px;
+     }
+     .img-card-para-one-new p{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+  
+    
+    .btn-OurPro{
+   margin-left: 15rem;
+    }
+          
+}
+
+
+@media only screen and (max-width:767.98px){
+
+    
+    
+    
+    
+  
+    
+    
+    /* card section starting from here */
+    .img-card{ }
+    .img-card img{
+        width: 600px;
+        height: 325px;
+        flex-shrink: 0;
+        border-radius: 50px 50px 0px 0px;
+     }
+    
+    
+   
+    .img-card-para-one-new p{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+
+    .img-card-para-two p{
+       
+    font-size: 32px;
+    
+    }
+    
+    .btn-OurPro{
+margin-left: 17rem;
+    }
+    
+    .btn-OurPro button{
+        width: 316px;
+    height: 68px;
+  
+
+    }
+    .btn-OurPro button span{
+        width: 217px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #004AAD;
+    font-family: Inter;
+    font-size: 31.35px;
+   
+    }
+    
+    .ArrowIcon{
+      margin-left: 2rem;
+    }   
+}
+
+@media only screen and (max-width:575.98px){
+
+ 
+    
+    /* card section starting from here */
+    .img-card{ }
+    .img-card img{
+        width: 535px;
+        height: 255px;
+        flex-shrink: 0;
+        border-radius: 50px 50px 0px 0px;
+     }
+    
+    
+   
+    .img-card-para-one-new p{
+        font-size: 40px;
+    }
+    
+
+    .img-card-para-two p{
+       
+    font-size: 28px;
+    
+    }
+    
+    .btn-OurPro{
+margin-left: 0rem;
+    }
+    
+    .btn-OurPro button{
+        width: 260px;
+    height: 55px;
+  
+
+    }
+    .btn-OurPro button span{
+        width: 217px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #004AAD;
+    font-family: Inter;
+    font-size: 25.35px;
+   
+    }
+    
+    .ArrowIcon{
+      margin-left: 1rem;
+    }   
+}
+
+
+@media only screen and (max-width:425.98px){
+
+  
+    
+    /* card section starting from here */
+    .img-card{ }
+    .img-card img{
+        width: 400px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 50px 50px 0px 0px;
+     }
+    .img-card-para-one-new p{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .img-card-para-two p{
+    font-size: 25px;
+    
+    }
+    
+    .btn-OurPro{
+     margin-left: 0rem;
+    }
+    
+    .btn-OurPro button{
+        width: 260px;
+    height: 55px;
+  
+
+    }
+    .btn-OurPro button span{
+        width: 217px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #004AAD;
+    font-family: Inter;
+    font-size: 25.35px;
+   
+    }
+    
+    .ArrowIcon{
+      margin-left: 1rem;
+    }   
+}
+
+@media only screen and (max-width:320.98px){
+
+    
+    /* card section starting from here */
+    .img-card{ }
+    .img-card img{
+        width: 295px;
+        height: 175px;
+   
+     }
+    .img-card-para-one-new p{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .img-card-para-two p{
+    font-size: 25px;
+    
+    }
+    
+    .btn-OurPro{
+     margin-left: 0rem;
+    }
+    
+    .btn-OurPro button{
+        width: 210px;
+    height: 45px;
+  
+
+    }
+    .btn-OurPro button span{
+       
+    font-size: 20.35px;
+    }
+    .ArrowIcon{
+      margin-left: 1rem;
+    }   
+}

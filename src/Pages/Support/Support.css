@@ -1,0 +1,490 @@
+.support-back-color{
+    width: 1340px;
+height: 1014px;
+flex-shrink: 0;
+    background: #7b9ccc;
+    margin-top: 5rem;
+}
+
+.sopport-heading{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+
+}
+
+.sopport-heading p{
+    color: #000;
+font-family: Poppins;
+font-size: 54.57px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.sopport-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+}
+.sopport-para p{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34.301px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* card starting from here */
+.support-card{
+
+
+    width: 270px;
+    padding: 10px;
+    gap: 15px;
+height: 418px;
+flex-shrink: 0;
+border: 1px solid #004AAD;
+background: #FFF;
+box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.30);
+}
+
+.support-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-img img{}
+
+.support-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-para strong {
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.support-para p{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+.support-btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.support-btn button{
+    width: 247px;
+height: 78px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #004AAD;
+background: #FFF;
+}
+
+.support-btn button span{
+  
+    color: #004AAD;
+font-family: poppins;
+font-size: 34.35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize; 
+}
+
+
+.row{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important  ;
+    width: 100% !important;
+     max-width: 100% !important;
+     
+}
+/* media query starting from here */
+
+@media only screen and (max-width:992px){
+
+    .support-back-color{
+        width: 1340px;
+    height: 1242px;
+  
+        margin-top: 5rem;
+    }
+    
+    .sopport-heading{
+        
+    
+    margin-top: 5rem;
+    
+    }
+    
+    .sopport-heading p{
+  
+    font-size: 42px;
+    font-weight: 500;
+ 
+    }
+    
+    .sopport-para{
+        
+        margin-top: 0rem;
+    }
+    .sopport-para p{
+
+        font-size: 30.301px;
+    }
+    
+    /* card starting from here */
+    .support-card{
+    width: 230px;
+    padding: 5px;
+    gap: 15px;
+    height: 355px;
+    }
+    
+    .support-img{
+        margin-top: 0.75rem;
+    }
+    .support-img img{}
+    
+    .support-para{
+    }
+    .support-para  strong{
+     
+    font-size: 20px;
+    
+}
+.support-para p{
+        font-size: 20px;
+     
+    }
+    
+    
+    .support-btn{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    .support-btn button{
+    width: 247px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #004AAD;
+    background: #FFF;
+    }
+    
+    .support-btn button span{
+      
+    color: #004AAD;
+    font-family: poppins;
+    font-size: 34.35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize; 
+    }
+    
+}
+@media only screen and (max-width:767.98px){
+
+    .support-back-color{
+      
+        height: 1980px;
+        margin-top: 5rem;
+    }
+    
+    .sopport-heading{
+    margin-top: 5rem;
+    }
+    
+    .sopport-heading p{
+    font-size: 30px;
+    font-weight: 600;
+ 
+    }
+    
+    .sopport-para{
+        margin-top: 0rem;
+    }
+    .sopport-para p{
+
+        font-size: 30.301px;
+    }
+    
+    /* card starting from here */
+    .support-card{
+    width: 375px;
+    padding: 5px;
+    gap: 15px;
+    height: 355px;
+    }
+    
+    .support-img{
+        margin-top: 0.75rem;
+    }
+    .support-img img{}
+    
+    .support-para{
+    }
+    .support-para  strong{
+     
+    font-size: 22px;
+    font-weight: 700;
+}
+.support-para p{
+        font-size: 26.585px;
+     
+    }
+    
+    
+    .support-btn{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 8rem;
+    }
+    .support-btn button{
+    width: 247px;
+    height: 78px;
+    }
+    
+    .support-btn button span{
+      
+    font-size: 34.35px;
+  
+    }
+    .row{
+        display: flex !important;
+        
+        flex-wrap: wrap !important  ;
+        /* width: 100% !important; */
+        
+    }
+
+}
+@media only screen and (max-width:575.98px){
+
+    .support-back-color{
+        margin-top: 5rem;
+    }
+    .sopport-heading{
+    margin-top: 5rem;
+    }
+    
+    .sopport-heading p{
+    font-size: 31px;
+    font-weight: 600;
+ 
+    }
+    
+    .sopport-para{
+        margin-top: 0rem;
+    }
+    .sopport-para p{
+
+        font-size: 27.301px;
+    }
+    
+    /* card starting from here */
+    .support-card{
+        margin-left: 5rem;
+        width: 375px;
+        padding: 5px;
+        gap: 15px;
+        height: 355px;
+        }
+    
+    .support-img{
+        margin-top: 0.75rem;
+    }
+    .support-img img{}
+    
+    .support-para{
+    }
+    .support-para  strong{
+    font-size: 28px;
+    font-weight: 700;
+}
+.support-para p{
+font-size: 25px;
+    }
+    .support-btn{
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+    .support-btn button{
+    width: 210px;
+    height: 68px;
+    }
+    
+    .support-btn button span{  
+    font-size: 34.35px;
+    }
+
+}
+
+@media (min-width: 576px ){
+
+.col-sm-12 {
+    flex: 0 0 auto;
+     /* width: 100% !important;  */
+}
+.row >* {
+    flex-shrink: 0;
+    /* width: 100%; */
+    max-width: 100%;
+  
+}
+
+}
+@media only screen and (max-width:425.98px){
+    .support-back-color{
+        height: 2055px;
+        margin-top: 5rem;
+    }
+    .sopport-heading{
+    margin-top: 5rem;
+    }
+    
+    .sopport-heading p{
+    font-size: 23px;
+    font-weight: 600;
+ 
+    }
+    
+    .sopport-para{
+        margin-top: 0rem;
+    }
+    .sopport-para p{
+
+        font-size: 27.301px;
+    }
+    
+    /* card starting from here */
+    .support-card{
+    width: 210px;
+    padding: 5px;
+    gap: 15px;
+    height: 355px;
+    }
+    
+    .support-img{
+        margin-top: 0.75rem;
+    }
+    .support-img img{}
+    
+    .support-para{
+    }
+    .support-para  strong{
+    font-size: 18px;
+    font-weight: 700;
+}
+.support-para p{
+font-size: 19px;
+    }
+    .support-btn{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .support-btn button{
+    width: 210px;
+    height: 68px;
+    }
+    
+    .support-btn button span{  
+    font-size: 34.35px;
+    }
+
+}
+@media only screen and (max-width:320px){
+
+    .support-back-color{
+        height: 2075px;
+        margin-top: 5rem;
+    }
+    .sopport-heading{
+    margin-top: 5rem;
+    }
+    
+    .sopport-heading p{
+    font-size: 23px;
+    font-weight: 600;
+ 
+    }
+    
+    .sopport-para{
+        margin-top: 0rem;
+    }
+    .sopport-para p{
+
+        font-size: 27.301px;
+    }
+    
+    /* card starting from here */
+    .support-card{
+    width: 210px;
+    padding: 5px;
+    gap: 15px;
+    height: 355px;
+    margin-left: 2rem;
+    }
+    
+    .support-img{
+        margin-top: 0.75rem;
+    }
+    .support-img img{}
+    
+    .support-para{
+    }
+    .support-para  strong{
+    font-size: 18px;
+    font-weight: 700;
+}
+.support-para p{
+font-size: 19px;
+    }
+    .support-btn{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .support-btn button{
+    width: 180px;
+    height: 58px;
+    }
+    
+    .support-btn button span{  
+    font-size: 28px;
+    }
+}

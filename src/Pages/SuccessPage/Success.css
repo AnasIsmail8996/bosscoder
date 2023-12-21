@@ -1,0 +1,140 @@
+.heading-sucess{
+    
+ 
+}
+
+.heading-sucess p{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 53.35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+
+}
+
+.img-sucess{
+ 
+}
+.img-sucess img{
+    width: 1175px;
+    height: 618px;
+    flex-shrink: 0;
+    
+    cursor: pointer;
+}
+
+@media only screen and (max-width:992px){
+    .heading-sucess{
+        margin-left: 2rem;
+    }
+    .heading-sucess p{
+    
+    font-size: 48.35px;
+    
+    
+    }
+    
+    .img-sucess{
+     margin-left: -4rem;
+    }
+    .img-sucess img{
+        width: 844px;
+        height: 618px;
+        flex-shrink: 0;
+        
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:767.98px){
+    .heading-sucess p{
+    
+    font-size: 42.35px;
+    
+    
+    }
+    
+    .img-sucess{
+     
+    }
+    .img-sucess img{
+        width: 575px;
+        height: 425px;
+        flex-shrink: 0;
+        
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width:575.98px){
+
+    .heading-sucess{
+        margin-left: 0rem;
+    }
+
+    .heading-sucess p{
+    
+    font-size: 38.35px;
+    font-weight: 500;
+    
+    
+    }
+    
+    .img-sucess{
+        
+            margin-left: 0rem;
+         
+    }
+    .img-sucess img{
+        width: 545px;
+        height: 425px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:425.98px){
+    .heading-sucess p{
+    
+    font-size: 32.35px;
+    font-weight: 500;
+    
+    
+    }
+    
+    .img-sucess{
+     
+    }
+    .img-sucess img{
+        width: 400px;
+        height: 295px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .heading-sucess p{   
+    font-size: 26.35px;
+    font-weight: 500;
+    margin-left: -0.25rem;
+    }
+    
+    .img-sucess{
+     
+            margin-left: 0rem;
+    }
+    .img-sucess img{
+        width: 295px;
+        height: 195px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}

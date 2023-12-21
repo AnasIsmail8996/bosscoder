@@ -1,0 +1,277 @@
+.boss-sol-Heading{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.boss-sol-Heading p{
+    color: #000;
+font-family: Poppins;
+font-size: 59.577px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.boss-sol-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boss-sol-para p{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 37.448px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: lowercase;
+}
+
+.table-text{}
+.table-text p{
+    color: #000;
+font-family: Poppins;
+font-size: 22.58px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.table-imge{}
+
+
+.boss-table-img{
+    height: 500px;
+}
+
+@media only screen and (max-width:992px){
+    .boss-sol-Heading{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    
+    }
+    .boss-sol-Heading p{
+        color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    
+    .boss-sol-para{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boss-sol-para p{
+        color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35.448px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    }
+    
+    .table-text{}
+    .table-text p{
+        color: #000;
+    font-family: Poppins;
+    font-size: 18.58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    
+    .table-imge{}
+    
+    
+    .boss-table-img{
+        height: 500px;
+    }
+    .top-btn{
+          
+         
+        bottom: 5rem;
+        right: 0rem;
+        left: 48rem;
+        z-index: 999;
+    
+    }
+
+}
+@media only screen and (max-width:767.98px){
+    
+    .boss-sol-Heading p{
+      
+    font-size: 38px;
+
+   
+    }
+    
+   
+    .boss-sol-para p{
+      
+    font-size: 28.448px;
+ 
+    }
+    
+    .table-text{}
+    .table-text p{
+       
+    font-size: 18.58px;
+    font-weight: 600;
+    
+    }
+    
+    .table-imge{}
+    
+    
+    .boss-table-img{
+        height: 500px;
+    }
+    .top-btn{
+          
+         
+        bottom: 5rem;
+        right: 0rem;
+        left: 33rem;
+        z-index: 999;
+    
+    }   
+}
+@media only screen and (max-width:575.98px){
+    .boss-sol-Heading p{
+      
+        font-size: 28px;
+        font-weight: 600;
+       
+        }
+        
+       
+        .boss-sol-para p{
+          
+        font-size: 18.448px;
+       font-weight: 600;
+        text-align: center;
+        text-wrap: balance  ;
+        }
+        
+        .table-text{}
+        .table-text p{
+        font-size: 25.58px;
+        
+        }
+        
+        .table-imge{}
+        
+        
+        .boss-table-img{
+        display: none;
+            /* margin-left: -2rem; 
+            height: 500px; */
+        }
+        .top-btn{
+              
+             
+            bottom: 5rem;
+            right: 0rem;
+            left: 22rem;
+            z-index: 999;
+        
+        }
+}
+@media only screen and (max-width:425.98px){
+    .boss-sol-Heading p{
+      
+        font-size: 25px;
+        font-weight: 600;
+       
+        }
+        
+       
+        .boss-sol-para p{
+          
+        font-size: 18.448px;
+      font-weight: 700;
+        text-align: center;
+        text-wrap: balance  ;
+        }
+        
+        .table-text{}
+        .table-text p{
+        font-size: 18.58px;
+        font-weight: 500;
+        
+        }
+        
+        .table-imge{}
+        
+        
+        .boss-table-img{
+        display: none;
+            /* margin-left: -2rem; 
+            height: 500px; */
+        }
+        .top-btn{
+              
+             
+            bottom: 5rem;
+            right: 0rem;
+            left: 15rem;
+            z-index: 999;
+        
+        }
+}
+@media only screen and (max-width:320.98px){
+
+
+    .boss-sol-Heading p{
+      
+        font-size: 18.245px;
+        font-weight: 800;
+       
+        }
+        
+       
+        .boss-sol-para p{
+        font-size: 18.25px;
+      font-weight: 600;
+        text-align: center;
+        text-wrap: balance  ;
+        }
+        
+        .table-text{}
+        .table-text p{
+        font-size: 18.58px;
+        font-weight: 500;
+        
+        }
+        
+        .table-imge{}
+        
+        
+        .boss-table-img{
+        display: none;
+            /* margin-left: -2rem; 
+            height: 500px; */
+        }
+        .top-btn{
+              
+             
+            bottom: 5rem;
+            right: 0rem;
+            left: 10rem;
+            z-index: 999;
+        
+        }
+}

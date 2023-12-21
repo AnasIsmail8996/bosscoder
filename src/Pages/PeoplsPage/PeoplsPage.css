@@ -1,0 +1,524 @@
+.Back-Color{
+    margin-top: 5rem;
+    width: 1348px;
+height: 839px;
+flex-shrink: 0;
+background: rgba(121, 152, 195, 0.672);
+position: relative;
+}
+
+.Back-Para-One{
+    top: 5rem;
+    position: absolute  ;
+    left: 12rem;
+}
+
+.Back-Para-One p{
+    color: #000;
+    font-family: Inter;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Back-Para-two{
+    top: 12rem;
+    left: 16rem;
+    position: absolute;
+}
+.Back-Para-two p {
+    color: #000;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* slider and card starting from here */
+
+.caraItems-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25rem;
+    left: 0rem;
+    width: 100%;
+    height: 45px    ;
+}
+.card {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important    ;
+    border-radius: 19.48px !important;
+border: 1px solid #004AAD !important;
+
+}
+
+.carousel-control-next-icon{
+    color: #004AAD !important;
+    width: 85.35px !important;
+    height: 85.35px !important;
+    flex-shrink: 0 !important;
+    
+}
+.carousel .carousel-control-prev-icon{
+    color: #004AAD !important;
+    width: 85.35px !important;
+    height: 85.35px !important;
+    flex-shrink: 0 !important;
+   
+
+}
+
+.carousel .carousel-indicators{
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 35px;
+    height: 15px;
+    border-radius: 15px;
+   color: #004AAD !important;
+   background-color: #004AAD !important ;
+    margin-bottom: -10rem !important;
+  
+    margin-left:32rem !important    ;
+    
+  
+}
+
+.carousel-item{
+    margin-left: 25rem !important;
+}
+
+
+
+.btn-OurPro-peoples{
+    margin-top: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+    .btn-OurPro-peoples button{
+        width: 386px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #004AAD;
+    background: #FFF;
+    }
+    .btn-OurPro-peoples button span{
+        width: 237px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #004AAD;
+    font-family: Inter;
+    font-size: 34.35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+
+/* Media Query starting from here  */
+
+@media only screen and (max-width:992px){
+
+    .Back-Color{
+        margin-top: 5rem;
+        width: 0;
+    height: 839px;
+    flex-shrink: 0;
+    background: rgba(121, 152, 195, 0.672);
+    position: relative;
+    }
+    
+    .Back-Para-One{
+        top: 5rem;
+        position: absolute  ;
+        left: 2rem;
+    }
+    
+    .Back-Para-One p{
+        color: #000;
+        font-family: poppins;
+        font-size: 48px;
+       
+    }
+    
+    .Back-Para-two{
+        top: 12rem;
+        left: 7rem;
+        position: absolute;
+    }
+    .Back-Para-two p {
+        color: #000;
+        font-family: poppins;
+        font-size: 25px;
+      
+      
+    }
+    
+    /* slider and card starting from here */
+    
+    .caraItems-parent{
+      
+     position: absolute; 
+        top: 25rem;
+     
+    }
+
+    
+    .carousel-control-next-icon{
+    
+        width: 75.35px !important;
+        height: 75.35px !important;
+    }
+    .carousel .carousel-control-prev-icon{
+
+        width: 75.35px !important;
+        height: 75.35px !important;
+    }
+    
+    .carousel .carousel-indicators{
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 35px;
+        height: 25px;
+        border-radius: 15px;
+        margin-bottom: -10rem !important;
+        margin-left:20rem !important    ;
+          
+    }
+    
+    .carousel-item{
+        margin-left: 13rem !important;
+    }
+    
+    
+    
+    .btn-OurPro-peoples{
+        margin-top: 40rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+        
+        .btn-OurPro-peoples button{
+            width: 346px;
+        height: 78px;
+       
+        }
+        .btn-OurPro-peoples button span{
+        
+       
+        font-family: poppins;
+        font-size: 28.35px;
+       
+        }
+    
+    
+   
+    
+  
+    .btn-OurPro-peoples{
+    
+   margin-left: 15rem;
+    }
+          
+}
+
+
+@media only screen and (max-width:767.98px){
+    
+
+    .Back-Para-One{
+        top: 5rem;
+        position: absolute  ;
+        left: 2rem;
+    }
+    
+    .Back-Para-One p{
+        font-size: 42px;
+        font-weight: 700;
+    }
+    
+    .Back-Para-two{
+        top: 10rem;
+        left: 2rem;
+        position: absolute;
+    }
+    .Back-Para-two p {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    
+    /* slider and card starting from here */
+    
+    .caraItems-parent{ 
+     position: absolute; 
+        top: 25rem;
+    }
+
+    
+    .carousel-control-next-icon{
+    
+        width: 65.35px !important;
+        height: 65.35px !important;
+    }
+    .carousel .carousel-control-prev-icon{
+
+        width: 65.35px !important;
+        height: 65.35px !important;
+    }
+    
+    .carousel .carousel-indicators{
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 35px;
+        height: 25px;
+        border-radius: 15px;
+        margin-bottom: -12rem !important;
+        margin-left:14rem !important    ;
+          
+    }
+    
+    .carousel-item{
+        margin-left: 7rem !important;
+    }
+
+
+
+
+
+    .btn-OurPro-peoples {
+    margin-left: 16rem;
+    }
+    .btn-OurPro-peoples button{
+    width: 316px;
+    height: 68px;
+  
+
+    }
+    .btn-OurPro-peoples  button span{
+    width: 217px;
+    height: 39px;
+    font-family: poppins;
+    font-size: 28.35px;
+   
+    }
+      
+}
+
+@media only screen and (max-width:575.98px){
+
+   
+
+
+
+    .Back-Para-One{
+        top: 5rem;
+        position: absolute  ;
+        left: 0rem;
+    }
+    
+    .Back-Para-One p{
+        font-size: 32px;
+        font-weight: 500    ;
+    }
+    
+    .Back-Para-two{
+        top: 10rem;
+        left: 0rem;
+        position: absolute;
+    }
+    .Back-Para-two p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    /* slider and card starting from here */
+    
+    .caraItems-parent{ 
+     position: absolute; 
+        top: 25rem;
+    }
+
+    
+    .carousel-control-next-icon{
+    
+        width: 55.35px !important;
+        height: 55.35px !important;
+    }
+    .carousel .carousel-control-prev-icon{
+
+        width: 55.35px !important;
+        height: 55.35px !important;
+    }
+    
+    .carousel .carousel-indicators{
+        flex: 0 1 auto;
+        width: 35px;
+        height: 25px;
+        margin-bottom: -12rem !important;
+        margin-left:15rem !important    ;
+          
+    }
+    
+    .carousel-item{
+        margin-left: 8rem !important;
+    }
+
+    .btn-OurPro-peoples {
+    margin-left: 0rem;
+    }
+    .btn-OurPro-peoples button{
+    width: 270px;
+    height: 68px;
+    }
+    .btn-OurPro-peoples  button span{
+
+    font-family: poppins;
+    font-size: 24.35px;
+   font-weight: 600;
+    }
+      
+   
+      
+}
+
+
+@media only screen and (max-width:425.98px){    
+   
+    .Back-Para-One{
+        top: 5rem;
+        position: absolute  ;
+   
+    }
+    
+    .Back-Para-One p{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .Back-Para-two{
+        top: 10rem;
+        left: 0rem;
+        position: absolute;
+    }
+    .Back-Para-two p {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    /* slider and card starting from here */
+    
+    .caraItems-parent{ 
+     position: absolute; 
+        top: 25rem;
+    }
+
+    
+    .carousel-control-next-icon{
+    
+        width: 45.35px !important;
+        height: 45.35px !important;
+    }
+    .carousel .carousel-control-prev-icon{
+
+        width: 45.35px !important;
+        height: 45.35px !important;
+    }
+    
+    .carousel .carousel-indicators{
+        flex: 0 1 auto;
+        width: 35px;
+        height: 25px;
+        margin-bottom: -12rem !important;
+        margin-left:12rem !important    ;
+          
+    }
+    
+    .carousel-item{
+        margin-left: 3.55rem !important;
+    }
+
+    .btn-OurPro-peoples {
+    margin-left: 0rem;
+    }
+    .btn-OurPro-peoples button{
+    width: 220px;
+    height: 58px;
+    }
+    .btn-OurPro-peoples  button span{
+    font-family: poppins;
+    font-size: 19.35px;
+   font-weight: 600;
+    }   
+     
+}
+
+@media only screen and (max-width:320.98px){
+    
+    .Back-Para-One p{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .Back-Para-two p {
+        font-size: 18px;
+        font-weight: 500;
+        text-wrap: balance;
+    }
+    
+    /* slider and card starting from here */
+    
+    .caraItems-parent{ 
+     position: absolute; 
+        top: 25rem;
+    }
+
+    
+    .carousel-control-next-icon{
+    
+        width: 35.35px !important;
+        height: 35.35px !important;
+    }
+    .carousel .carousel-control-prev-icon{
+
+        width: 35.35px !important;
+        height: 35.35px !important;
+    }
+    
+    .carousel .carousel-indicators{
+        flex: 0 1 auto;
+        width: 35px;
+        height: 25px;
+        margin-bottom: -12rem !important;
+        margin-left:8rem !important    ;
+          
+    }
+    
+    .carousel-item{
+        margin-left: 0.45rem !important;
+    }
+
+    .btn-OurPro-peoples {
+    margin-left: 0rem;
+    }
+    .btn-OurPro-peoples button{
+    width: 180px;
+    height: 55px;
+    }
+    .btn-OurPro-peoples  button span{
+    font-size: 15.35px;
+   font-weight: 600;
+    }
+ 
+}
